@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.kutu{
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: yellowgreen solid;
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: aquamarine;
+        }
+        .kutu:nth-child(3n), .cell:nth-child(3n-1) {
+            border-right: 0px ;
+        }
+        .kutu:nth-child(9n), .cell:nth-child(9n-1) {
+            border-bottom: 0px ;
+        }
+        .sudoku {
+            display: grid;
+            grid-template-columns: repeat(9, 45px);
+            grid-template-rows: repeat(9, 45px);
+            gap: 4 px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="sudoku">
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+    <div class="kutu">1</div>
+    <div class="kutu">2</div>
+    <div class="kutu">3</div>
+    <div class="kutu">4</div>
+    <div class="kutu">5</div>
+    <div class="kutu">6</div>
+    <div class="kutu">7</div>
+    <div class="kutu">8</div>
+    <div class="kutu">9</div>
+</div>
+</body>
+</html>
